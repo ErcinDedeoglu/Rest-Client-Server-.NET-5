@@ -1,0 +1,7 @@
+﻿@using Newtonsoft.Json
+@model POC.DTO.WeatherForecastDto[]
+<strong>JSON:</strong>
+<hr />
+@{
+    @JsonConvert.SerializeObject(Model)
+}
